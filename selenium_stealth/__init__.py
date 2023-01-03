@@ -53,7 +53,7 @@ def stealth(driver: Driver, user_agent: str = None,
     #navigator_vendor(driver, vendor, **kwargs)
     #navigator_webdriver(driver, **kwargs)
     #user_agent_override(driver, user_agent, ua_languages, platform, **kwargs)
-    webgl_vendor_override(driver, webgl_vendor, renderer, **kwargs)
+    #webgl_vendor_override(driver, webgl_vendor, renderer, **kwargs)
     window_outerdimensions(driver, **kwargs)
 
     if fix_hairline:
